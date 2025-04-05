@@ -1,0 +1,41 @@
+.todo-form{
+    margin-top: 35px;
+    margin: 0 auto;
+    max-width: 500px;
+    width: 500px;
+    height: 500px;
+    padding: 30px;
+    border-radius: 40px;
+    background-color: red;
+}
+
+.form{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.tasks{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.task-title{
+    display: flex;
+}
+
+@media (max-width: 760px;){
+    .form,
+    .tasks {
+       width: 60%;
+    }
+
+}
+
+@media (max-width:500px){
+    .form,
+    .tasks,{
+        width: 75%;
+    }
+}
